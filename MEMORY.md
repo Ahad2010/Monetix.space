@@ -4,6 +4,18 @@ This is the running state of the project. Every agent reads this at the start of
 
 ---
 
+## [2026-09-11 — Phase 1 design mockups]
+
+- Generated and saved 12 image-based UI mockups under `apps/web/design-mockups/`: desktop and mobile versions of sign-in, dashboard shell, Home, Inbox, Lead Finder, and a persistent inline error state.
+- Mockups use the approved Momentix logo reference and the exact palette, typography direction, spacing, radii, navigation, AI-action, lead-score, and error-state rules from `DESIGN.md`.
+- No production application code has been written.
+- Pending: owner review and explicit approval before Phase 2 implementation.
+
+### Open items for next session
+
+- [ ] Apply any requested mockup revisions, or begin Phase 2 only after explicit approval.
+- [ ] Build the functional Next.js frontend with mock data and complete frontend tests after approval.
+
 ## [2026-09-11 — Phase 0 repository setup]
 
 - Initialized the frontend monorepo workspace with `apps/web`, `apps/marketing`, `packages/ui`, and `packages/shared-types` placeholders.
